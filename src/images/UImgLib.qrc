@@ -1,0 +1,11 @@
+<RCC>
+  <qresource prefix="UtechLibImg" >
+    <file>libImages/utechLibImg_paper_48.png</file>
+    <file>libImages/utechLibImg_blue_speech_bubble_48.png</file>
+    <file>libImages/utechLibImg_comment_warning_48.png</file>
+    <file>libImages/utechLibImg_icontexto-webdev-cancel-032x032.png</file>
+    <file>libImages/utechLibImg_icontexto-webdev-print-032x032.png</file>
+    <file>libImages/utechLibImg_icontexto-webdev-emoticon-smile-032x032.png</file>
+    <file>libImages/utechLibImg_pdf_document.png</file>
+  </qresource>
+</RCC>

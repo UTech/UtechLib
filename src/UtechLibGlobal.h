@@ -1,0 +1,14 @@
+#ifndef UTECHLIBGLOBAL_H
+#define UTECHLIBGLOBAL_H
+
+#if defined(UTECHLIB_LIBRARY)
+#define UTECHLIB_EXPORT Q_DECL_EXPORT
+#else
+#define UTECHLIB_EXPORT Q_DECL_IMPORT
+#endif
+
+#define UTECHLIB_VERSION 01.00
+
+#endif
+
+

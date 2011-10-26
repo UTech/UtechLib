@@ -1,0 +1,15 @@
+UtechLib is the library where gathered common functions and classes that are used in other Utech projects.
+
+
+1. REQUIREMENTS
+
+UtechLib use Qt4 library and was tested with gcc 4.4.0 compiler. Project can be compiled under Windows and Linux platforms.
+UtechLib.pri is used to include library functionality into Qt-based project. It was configured to statically link with main project.
+
+
+2. USAGE
+
+To use library simply place it into directory with other Utech project(s) and from command line type
+
+qmake
+make
