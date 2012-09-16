@@ -7,6 +7,8 @@
 //
 //--------------------utech--------------------utech--------------------utech--------------------
 
+#include <QTextCodec>
+
 #include "UDebugForm.h"
 
 //--------------------utech--------------------utech--------------------utech--------------------
@@ -25,9 +27,9 @@ void UDebug::showDebug()
 
 void UDebug::uMessageOutput(QtMsgType type, const char *msg)
 {
-	switch (type) {
+    switch (type) {
 	case QtDebugMsg:
-		UDebug::debugFormPointer->addDebugString(msg);
+        UDebug::debugFormPointer->addDebugString(msg);
 		break;
 	case QtWarningMsg:
 		UDebug::debugFormPointer->addWarningString(msg);

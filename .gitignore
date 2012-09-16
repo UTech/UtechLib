@@ -1,0 +1,9 @@
+Makefile
+lib/
+src/Makefile
+src/Makefile.Debug
+src/Makefile.Release
+src/object_script.libUtechQtExt.Release
+src/object_script.libUtechQtExtd.Debug
+src/ui_headers/
+tmp/
